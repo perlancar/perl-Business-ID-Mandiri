@@ -21,7 +21,7 @@ Perinci::CmdLine->new(url=>'/Business/ID/Mandiri/list_mandiri_branches')->run;
 
 =head1 DESCRIPTION
 
-This is a command-line interface for the <list_mandiri_branches> function in
+This is a command-line interface for the C<list_mandiri_branches> function in
 L<Business::ID::Mandiri>.
 
 =cut
