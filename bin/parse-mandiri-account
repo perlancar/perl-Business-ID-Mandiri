@@ -21,7 +21,7 @@ Perinci::CmdLine->new(url=>'/Business/ID/Mandiri/parse_mandiri_account')->run;
 
 =head1 DESCRIPTION
 
-This is a command-line interface for the <parse_mandiri_account> function in
+This is a command-line interface for the C<parse_mandiri_account> function in
 L<Business::ID::Mandiri>.
 
 =cut
