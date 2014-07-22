@@ -1,5 +1,13 @@
 Revision history for Business-ID-Mandiri
 
+0.02     2014-07-22 (SHARYANTO)
+
+         - No functional changes.
+
+         - Switch CLI scripts from using Perinci::CmdLine to
+           Perinci::CmdLine::Any to reduce size of dependencies.
+
+
 0.01    2013-04-25 (SHARYANTO)
 
         - First release.
