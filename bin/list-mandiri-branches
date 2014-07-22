@@ -4,11 +4,12 @@ use 5.010;
 use strict;
 use warnings;
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Any;
 
 # VERSION
 
-Perinci::CmdLine->new(url=>'/Business/ID/Mandiri/list_mandiri_branches')->run;
+Perinci::CmdLine::Any->new(
+    url=>'/Business/ID/Mandiri/list_mandiri_branches')->run;
 
 1;
 # ABSTRACT: List Mandiri branches

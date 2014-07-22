@@ -4,11 +4,12 @@ use 5.010;
 use strict;
 use warnings;
 
-use Perinci::CmdLine;
+use Perinci::CmdLine::Any;
 
 # VERSION
 
-Perinci::CmdLine->new(url=>'/Business/ID/Mandiri/parse_mandiri_account')->run;
+Perinci::CmdLine::Any->new(
+    url=>'/Business/ID/Mandiri/parse_mandiri_account')->run;
 
 1;
 # ABSTRACT: Parse Mandiri account number
