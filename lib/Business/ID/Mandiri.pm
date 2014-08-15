@@ -1541,4 +1541,10 @@ List of valid 3-digit branch codes is not yet available/checked.
 
 Bank Syariah Mandiri (BSM) has a different numbering scheme (10 digits).
 
+Accounts with codes starting with 900 are created using RAOS (remote account
+operating system), so the actual branch is not immediately evident. You'll need
+to ask Mandiri for this. (Ref:
+L<http://www.kaskus.co.id/thread/51bf2bb48027cf1d34000000/cara-cek-lokasi-rekening-bank-mandiri>)
+
+
 =cut
