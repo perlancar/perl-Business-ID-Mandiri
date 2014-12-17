@@ -1,12 +1,13 @@
 package Business::ID::Mandiri;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
 
 use Perinci::Sub::Gen::AccessTable qw(gen_read_table_func);
-
-# VERSION
 
 our %SPEC;
 
@@ -1514,7 +1515,7 @@ sub parse_mandiri_account {
     [200, "OK", $parsed];
 }
 
-#ABSTRACT: Parse/validate Mandiri account number
+#ABSTRACT:
 
 =head1 SYNOPSIS
 
