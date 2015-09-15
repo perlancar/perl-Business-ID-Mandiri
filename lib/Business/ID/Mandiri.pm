@@ -1470,7 +1470,7 @@ my $res = gen_read_table_func(
     name => 'list_mandiri_branches',
     table_data => $data,
     table_spec => $meta,
-    default_fields => 'code',
+    default_fields => ['code'],
     #langs => ['en_US', 'id_ID'],
 );
 die "BUG: Can't generate func: $res->[0] - $res->[1]" unless $res->[0] == 200;
