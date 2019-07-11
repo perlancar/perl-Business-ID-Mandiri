@@ -1,10 +1,10 @@
-0.05    2015-09-15 (PERLANCAR)
+0.05    2015-09-15  Released-By: PERLANCAR
 
 	- Update to newer Perinci::Sub::Gen::AccessTable (default_fields
 	  must be array).
 
 
-0.04    2015-09-03 (PERLANCAR)
+0.04    2015-09-03  Released-By: PERLANCAR
 
 	- No functional changes.
 
@@ -13,13 +13,13 @@
 	  requirement.
 
 
-0.03    2015-07-10 (PERLANCAR)
+0.03    2015-07-10  Released-By: PERLANCAR
 
 	- Move pericmd CLI scripts to App-IndonesianBankingUtils to reduce
 	  dependencies for our dist.
 
 
-0.02     2014-07-22 (SHARYANTO)
+0.02     2014-07-22  Released-By: SHARYANTO
 
          - No functional changes.
 
@@ -27,6 +27,6 @@
            Perinci::CmdLine::Any to reduce size of dependencies.
 
 
-0.01    2013-04-25 (SHARYANTO)
+0.01    2013-04-25  Released-By: SHARYANTO
 
         - First release.
